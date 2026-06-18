@@ -1,0 +1,21 @@
+{
+  "ferelightUrl": "http://10.34.64.207:8080",
+  "vitrivrUrl": "https://vitrivr-engine.vitrivr.org",
+
+  "ferelightDataURL": "http://localhost:8000/",
+  "vitrivrDataURL": "http://10.34.64.207:8060/",
+  "vitrivrResultsPath": "vbs",
+
+  "retrievalEngine": "vitrivr",
+  
+  "mrIntensoApiUrl": "http://10.34.64.165:6969/api",
+  "mrIntensoVlmUrl": "http://10.34.64.211:8000",
+  "mrIntensoAPIGuestUsername" : "Guest",
+  "mrIntensoAPIGuestPassword" : "GuestPassword",
+
+  "dres": {
+    "apiBaseURL": "",
+    "username": "",
+    "password": ""
+  }
+}

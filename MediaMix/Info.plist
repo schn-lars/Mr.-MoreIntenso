@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSEnterpriseMCAMUsageDescription</key>
+	<string>Application needs access in order for the inference to run.</string>
+	
+	<key>NSWorldSensingUsageDescription</key>
+    	<string>Used to understand and reconstruct the environment.</string>
+
+    	<key>NSHandsTrackingUsageDescription</key>
+    	<string>Used for hand tracking interactions.</string>
+
+    	<key>NSMainCameraUsageDescription</key>
+    	<string>Used for real-time camera-based inference.</string>
+
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationPreferredDefaultSceneSessionRole</key>
+		<string>UIWindowSceneSessionRoleApplication</string>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<true/>
+		<key>UIApplicationSupportsTabbedSceneCollection</key>
+		<false/>
+		
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UISceneSessionRoleImmersiveSpaceApplication</key>
+			<array>
+				<dict/>
+			</array>
+		</dict>
+	</dict>
+	<key>UIFIleSharingEnabled</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,118 @@
+# ==================================================
+# Git
+# ==================================================
+*.orig
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
+# ==================================================
+# macOS
+# ==================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+*.icloud
+
+# ==================================================
+# Xcode
+# ==================================================
+
+# Build artifacts
+build/
+DerivedData/
+
+# User-specific Xcode data
+xcuserdata/
+*.xcuserstate
+*.mlpackage
+
+# Old Xcode files (safe to ignore)
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Coverage / profiling
+/*.gcno
+
+# ==================================================
+# IMPORTANT: Track Xcode project files
+# ==================================================
+
+# Track everything in .xcodeproj by default
+!*.xcodeproj/
+!*.xcodeproj/**
+
+# But ignore user-specific data inside
+*.xcodeproj/xcuserdata/
+
+# Track shared schemes & workspace data
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/project.xcworkspace/
+!*.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+
+# ==================================================
+# Swift Package Manager
+# ==================================================
+.build/
+
+# Commit Package.resolved for reproducible builds (RECOMMENDED)
+# If you really don't want it, uncomment the next line
+# **/Package.resolved
+
+# ==================================================
+# CocoaPods (if ever used)
+# ==================================================
+# Pods/
+
+# ==================================================
+# Carthage
+# ==================================================
+Carthage/Build/
+
+# ==================================================
+# Accio
+# ==================================================
+Dependencies/
+.accio/
+
+# ==================================================
+# fastlane
+# ==================================================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# ==================================================
+# Code Injection
+# ==================================================
+iOSInjectionProject/
