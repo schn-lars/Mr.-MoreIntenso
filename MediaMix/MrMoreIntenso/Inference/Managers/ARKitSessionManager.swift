@@ -2,6 +2,10 @@ import ARKit
 import CoreVideo
 import QuartzCore
 
+/*
+*   This class contains all logic related to ARKit.
+*   It is used for both modes of the application.
+*/
 class ARKitSessionManager: ObservableObject {
     private var arKitSession = ARKitSession()
     // https://developer.apple.com/documentation/arkit/cameraframeprovider

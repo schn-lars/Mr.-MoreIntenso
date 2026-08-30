@@ -2,6 +2,12 @@ import Foundation
 import SwiftUI
 import AVFoundation
 
+
+/*
+*   Access-point for any inference related inquiries.
+*   The top-level multiplexer for both local and remote inference.
+*/
+
 class InferenceManager {
     private var serverSideInference: Bool = false
     private var isRunning: Bool = false

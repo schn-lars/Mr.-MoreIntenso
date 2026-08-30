@@ -1,5 +1,10 @@
 import Foundation
 
+/*
+*   First class which transforms the result from the returned observations.
+*   It performs simlpe IoU pattern matching. It is aimed to reduce the load on the renderer later on.
+*
+*/
 class ObjectTracker {
     private let dementiaValue = 3.0
     

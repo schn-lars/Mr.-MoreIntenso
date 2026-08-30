@@ -1,6 +1,11 @@
 import CoreLocation
 import UIKit
 
+/*
+*   This class needs to be running main actor as it is more or less constatly active.
+*   It is concerning itself with any questions regarding location.
+*/
+
 @MainActor
 class LocationManager: NSObject, CLLocationManagerDelegate, ObservableObject {
     private let manager = CLLocationManager()

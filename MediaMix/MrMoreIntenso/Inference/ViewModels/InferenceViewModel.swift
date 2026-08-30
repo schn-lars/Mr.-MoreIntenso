@@ -3,6 +3,11 @@ import ARKit
 import Combine
 import simd
 
+/*
+*   Sort of the main entry point for the Mr.MoreIntenso application.
+*   It multiplexes inquiries and concerns itself with the lifecycle of all spawned processes
+*   such as camera and environmental scans.
+*/
 @MainActor
 class InferenceViewModel: ObservableObject {
     // Logic needed to react to changes for prompts (backend needs to know these changes)
