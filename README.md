@@ -137,6 +137,14 @@ Backends can be selected and configured at runtime via the application settings.
 4. Select a visionOS simulator or supported device
 5. Build and run the project
 
+
+### Setup for Mr.MoreIntenso
+
+1. Clone server repository (https://github.com/schn-lars/Server/tree/project)
+2. That repo's README contains instructions for running the containers.
+3. Also add the IP and port to the configuration file.
+
+
 ---
 
 ## Configuration
